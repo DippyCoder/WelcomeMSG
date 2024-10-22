@@ -1,0 +1,27 @@
+name: WelcomeMSG
+version: '1.0.0'
+main: com.dippycoder.welcomeMSG.Main
+api-version: '1.18'
+
+
+commands:
+  fakejoin:
+    description: Sends a fake join.
+    aliases:
+      - fj
+  fakequit:
+      description: Sends a fake quit.
+      aliases:
+        - fakeleave
+        - fq
+        - fl
+        - fakeexit
+        - fe
+  wmsg:
+    description: Admin command about WelcomeMSG.
+    aliases:
+      - welcomemsg
+      - welcomemessage
+      - welcomemessages
+      - wmessage
+      - wmessages

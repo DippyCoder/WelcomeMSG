@@ -1,0 +1,40 @@
+#WelcomeMSG Plugin by DippyCoder
+#https://github.com/dippycoder
+#Do not sell this plugin or give it up as yours!
+#Minecraft colors: https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes
+
+#The beginning of every Text, let the prefix blank if you don't want to use it!
+prefix: "§8§l[§r§bWelcomeMSG§8§l]§r "
+
+#Sends a message when the player don't have the permission
+no-permission: "§cYou do not have the permission to do that!"
+#Sends a message when the command is disabled
+disabled-command: "§cThis command is disabled!"
+
+#It looks like this: prefix + text-start + Player + text-end, let sth blank if you don't want to use sth!
+#When the player joins
+player-join:
+  text-start: "§eWelcome §a"
+  text-end: " §eto our server!"
+  enabled: true
+#When the player leaves
+player-quit:
+  text-start: "§eThe player §a"
+  text-end: " §ehas left our server!"
+  enabled: true
+#Message to the player that joined
+player-msg:
+  text-start: "§eWelcome §a"
+  text-end: " §eto the best server!"
+  enabled: false
+
+#Sends a fake join message
+fake-join:
+  permission: "wmsg.fakejoin"
+  enabled: true
+#Sends a fake quit message
+fake-quit:
+  permission: "wmsg.fakequit"
+  enabled: true
+wmsg:
+  permission: "wmsg.admin"
